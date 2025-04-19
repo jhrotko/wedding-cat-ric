@@ -1,1 +1,1 @@
-export const LOCATION_TITLE = "Onde vai ser";
+export const LOCATION_TITLE = "Onde vai ser?";
