@@ -5,12 +5,12 @@ import Countdown from "./time/Countdown";
 import Location from "./location/Location";
 import MealFormFacade from "./meal/MealFormFacade";
 import NavigationMenu from "./navbar/NavigationMenu";
-import Timeline from "./timeline/Timeline";
+// import Timeline from "./timeline/Timeline";
 
 const Header = () => {
   return (
     <header>
-      <h2>Catarina e Ricardo vão casar!</h2>
+      <h2>A Catarina e o Ricardo vão casar!</h2>
       <p>4 Outubro 2025</p>
       <Countdown
         timeTillDate="10 05 2025, 14:00"
@@ -69,9 +69,9 @@ const App = () => {
             <MealFormFacade />
           </div>
 
-          <div className="element-wrapper">
+          {/* <div className="element-wrapper">
             <Timeline />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
