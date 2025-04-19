@@ -1,21 +1,5 @@
-.meal-div {
-  display: flex;
-  align-items: flex-start;
-  
-  gap: 2rem;
-}
-
-.meal-dir-col {
-  flex-direction: column;
-}
-
-.meal-item {
-  flex: 1;
-}
-
-input[type="radio"] {
-  transform: scale(1.5); /* 1 = 100%, 1.5 = 150% size */
-  margin: 0 0.5rem;
-  cursor: pointer;
-  accent-color: #9b59b6;
+.meal {
+  min-width: 34rem;
+  min-height: 25rem;
+  border-radius: 6px;
 }

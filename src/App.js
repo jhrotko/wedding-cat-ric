@@ -3,8 +3,8 @@ import "./App.css";
 
 import Countdown from "./time/Countdown";
 import Location from "./location/Location";
-import MealFormFacade from "./meal/MealFormFacade";
 import NavigationMenu from "./navbar/NavigationMenu";
+import MealForm from "./meal/MealForm";
 // import Timeline from "./timeline/Timeline";
 
 const Header = () => {
@@ -60,18 +60,14 @@ const App = () => {
           <div className="element-wrapper block md:hidden">
             <NavigationMenu />
           </div>
-        ): null}
+        ) : null}
         <div className="body-wrapper">
           <div className="element-wrapper">
             <Location />
           </div>
           <div className="element-wrapper">
-            <MealFormFacade />
+           <MealForm />
           </div>
-
-          {/* <div className="element-wrapper">
-            <Timeline />
-          </div> */}
         </div>
       </div>
     </>
