@@ -1,27 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
+import Header from "./Header";
 
-import Countdown from "./time/Countdown";
 import Location from "./location/Location";
 import NavigationMenu from "./navbar/NavigationMenu";
 import MealForm from "./meal/MealForm";
 // import Timeline from "./timeline/Timeline";
-
-const Header = () => {
-  return (
-    <header>
-      <h2>A Catarina e o Ricardo vão casar!</h2>
-      <p>4 Outubro 2025</p>
-      <Countdown
-        timeTillDate="10 05 2025, 14:00"
-        timeFormat="MM DD YYYY, h:mm"
-      />
-      <a href="#body" className="headerButton" aria-current="page">
-        <p>Mostrar detalhes</p>
-      </a>
-    </header>
-  );
-};
 
 const App = () => {
   const elementRef = useRef(null);
@@ -66,7 +50,7 @@ const App = () => {
             <Location />
           </div>
           <div className="element-wrapper">
-           <MealForm />
+            <MealForm />
           </div>
         </div>
       </div>

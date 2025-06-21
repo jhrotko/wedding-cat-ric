@@ -1,16 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'NotasCaseiras';
+  src: url('./assets/font/NotasCaseiras.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --light-color: rgb(52, 55, 59);
+  --light-background-color: #f3f1e1;
+
+  --dark-color: #ffffff;
+  --dark-background-color: #282c34;
+}
 
 * {
-	font-family: 'Inter', sans-serif;
-} 
+	font-family: 'NotasCaseiras', sans-serif;
+}
+
 body {
-  background-color: #16171a;
-  color: #ffffff;
+  background-color: var(--light-background-color);
+  color: var(--light-color);
 }
 
 a {
-  text-decoration: none;
-  font-family: "Nunito Sans", sans-serif;
+  /* text-decoration: none; */
+  /* font-family: "Nunito Sans", sans-serif; */
   transition: color 0.3s, text-shadow 0.3s;
 }
  a:hover {
@@ -36,15 +50,14 @@ header {
   min-height: 100vh;
   margin: 0;
 
-  background-color: #282c34;
-  color: rgb(255, 255, 255);
+  background-color: var(--light-background-color);
+  color: var(--light-color);
   font-size: calc(10px + 2vmin);
-  background-position:top;
-  background-image: url(https://images.unsplash.com/photo-1503796964332-e25e282e390f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2OTM1NTR8&ixlib=rb-4.0.3&q=85);
 }
 
 header a {
-  color: #ffffff;
+  color: var(--light-color);
+  text-decoration: none;
 }
 
 .headerButton {
