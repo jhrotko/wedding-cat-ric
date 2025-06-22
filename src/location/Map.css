@@ -3,3 +3,9 @@
     min-height: 25rem;
     border-radius: 6px;
 }
+
+@media (max-width: 430px) {
+  .map {
+    min-width: 22rem;
+  }
+}

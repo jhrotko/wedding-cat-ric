@@ -1,12 +1,10 @@
-import { LOCATION_TITLE } from "../constants";
+import { LOCATION_TITLE, CONFIRM_PRESENCE } from "../constants";
 import "./NavigationManu.css";
 
 const NavigationItem = (props) => {
   return (
     <li>
-      <a href={props.ref}>
-        {props.title}
-      </a>
+      <a href={props.ref}>{props.title}</a>
     </li>
   );
 };
@@ -14,9 +12,9 @@ const NavigationItem = (props) => {
 const NavigationMenu = () => {
   return (
     <nav className="sidebar">
-      <ul >
+      <ul>
         <NavigationItem ref={"#location"} title={LOCATION_TITLE} />
-        <NavigationItem ref={"#meal"} title={"Confirma a tua presença"} />
+        <NavigationItem ref={"#meal"} title={CONFIRM_PRESENCE} />
       </ul>
     </nav>
   );

@@ -1,5 +1,11 @@
 .meal {
-  min-width: 34rem;
+  min-width: 340rem;
   min-height: 25rem;
   border-radius: 6px;
+}
+
+@media (max-width: 430px) {
+  .meal {
+    min-width: 25rem;
+  }
 }

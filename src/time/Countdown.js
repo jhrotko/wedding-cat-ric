@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import moment from "moment";
 import "./Countdown.css";
+import { isMobile } from "../constants";
 
 const Countdown = (props) => {
   const [time, setTime] = useState({

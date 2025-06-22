@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Header from "./Header";
+import { isMobile } from "./constants";
 
 import Location from "./location/Location";
 import NavigationMenu from "./navbar/NavigationMenu";
@@ -10,7 +11,6 @@ import MealForm from "./meal/MealForm";
 const App = () => {
   const elementRef = useRef(null);
   const [shouldShowNav, setIsVisible] = useState(false);
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

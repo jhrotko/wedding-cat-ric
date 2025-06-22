@@ -16,7 +16,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-
+	gap: "1rem";
 }
 
 .countdown-item {
@@ -26,12 +26,8 @@
 	justify-content: center;
 	flex-direction: column;
     line-height: 30px;
-	margin: 10px;
-    padding-top: 10px;
 	position: relative;
-	width: 100px;
-	height: 100px;
-	
+	width: 100px;	
 }
 
 .countdown-item span {
