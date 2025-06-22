@@ -16,18 +16,17 @@
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: "1rem";
+	gap: 3rem;
 }
 
 .countdown-item {
-	font-size: 40px;
+	font-size: 35px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
     line-height: 30px;
 	position: relative;
-	width: 100px;	
 }
 
 .countdown-item span {
