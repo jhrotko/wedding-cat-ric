@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
-import Header from "./Header";
-import { isMobile } from "./constants";
+import Header from "../header/Header";
+import { isMobile } from "../constants";
 
-import Location from "./location/Location";
-import NavigationMenu from "./navbar/NavigationMenu";
-import MealForm from "./meal/MealForm";
+import Location from "../location/Location";
+import NavigationMenu from "../navbar/NavigationMenu";
+import MealForm from "../meal/MealForm";
+import Questions from "../questions/Questions";
 // import Timeline from "./timeline/Timeline";
 
 const App = () => {
@@ -51,6 +52,9 @@ const App = () => {
           </div>
           <div className="element-wrapper">
             <MealForm />
+          </div>
+          <div className="element-wrapper">
+            <Questions />
           </div>
         </div>
       </div>

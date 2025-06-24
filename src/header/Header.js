@@ -1,6 +1,6 @@
-import { isMobile } from "./constants";
-import { Anel, Luzinhas, Noiva, Noivo } from "./design/Images";
-import Countdown from "./time/Countdown";
+import { isMobile } from "../constants";
+import { Anel, Luzinhas, Noiva, Noivo } from "../design/Images";
+import Countdown from "../time/Countdown";
 
 const Header = () => {
   return (
@@ -23,7 +23,7 @@ const TitleMobile = () => {
         }}
       >
         <Noiva height="10rem" />
-        <Noivo height="10rem" />
+        <Noivo height="12rem" />
       </div>
       <div
         style={{
@@ -96,7 +96,7 @@ const Title = () => {
           <Anel height="5rem" />
         </div>
       </div>
-      <Noivo height="22rem" />
+      <Noivo height="25rem" />
     </div>
   );
 };

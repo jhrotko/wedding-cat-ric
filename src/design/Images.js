@@ -4,6 +4,7 @@ import noivo from "../assets/noivo.png";
 import anel from "../assets/anel.png";
 import placa from "../assets/placa.png";
 import copo from "../assets/copo.png";
+import caozinho from "../assets/caozinho.png";
 
 export const Luzinhas = () => (
   <img
@@ -23,7 +24,6 @@ export const Noiva = ({ height }) => (
     src={noiva}
     alt="noiva"
     style={{
-      // backgroundColor: "#f0f0f0",
       height,
     }}
   />
@@ -62,6 +62,16 @@ export const Copo = () => (
   <img
     src={copo}
     alt="copo"
+    style={{
+      height: "5rem",
+    }}
+  />
+);
+
+export const Tita = () => (
+  <img
+    src={caozinho}
+    alt="caozinho"
     style={{
       height: "5rem",
     }}
