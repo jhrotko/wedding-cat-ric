@@ -1,4 +1,5 @@
 import { Tita } from "../design/Images";
+import { QUESTIONS } from "../constants";
 
 const Questions = () => {
   return (
@@ -10,10 +11,16 @@ const Questions = () => {
         }}
       >
         <Tita />
-        <h2>Questions</h2>
+        <h2>{QUESTIONS}</h2>
       </div>
-      <h3>Pergunta super pertinente</h3>
-      <p>Resposta super longa e interessante</p>
+      <p>
+        Se tiverem mais alguma questão, enviem-nos uma mensagem ou liguem-nos!
+        Temos todo o gosto em ajudar com o que pudermos.
+      </p>
+      <ul>
+        <li>Ricardo: (+351) 918181093</li>
+        <li>Catarina: (+351) 966312351</li>
+      </ul>
     </div>
   );
 };

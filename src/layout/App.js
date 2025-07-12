@@ -6,6 +6,8 @@ import { isMobile } from "../constants";
 import Location from "../location/Location";
 import NavigationMenu from "../navbar/NavigationMenu";
 import MealForm from "../meal/MealForm";
+import Arrive from "../location/Arrive";
+import Places from "../location/Places";
 import Questions from "../questions/Questions";
 // import Timeline from "./timeline/Timeline";
 
@@ -49,6 +51,12 @@ const App = () => {
         <div className="body-wrapper">
           <div className="element-wrapper">
             <Location />
+          </div>
+          <div className="element-wrapper">
+            <Arrive />
+          </div>
+          <div className="element-wrapper">
+            <Places />
           </div>
           <div className="element-wrapper">
             <MealForm />
