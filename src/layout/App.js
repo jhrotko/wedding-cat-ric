@@ -7,6 +7,7 @@ import Location from "../location/Location";
 import NavigationMenu from "../navbar/NavigationMenu";
 import MealForm from "../meal/MealForm";
 import Questions from "../questions/Questions";
+import Bio from "../bio/Bio";
 // import Timeline from "./timeline/Timeline";
 
 const App = () => {
@@ -47,6 +48,9 @@ const App = () => {
           </div>
         ) : null}
         <div className="body-wrapper">
+          <div className="element-wrapper">
+            <Bio />
+          </div>
           <div className="element-wrapper">
             <Location />
           </div>

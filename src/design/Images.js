@@ -5,6 +5,8 @@ import anel from "../assets/anel.png";
 import placa from "../assets/placa.png";
 import copo from "../assets/copo.png";
 import caozinho from "../assets/caozinho.png";
+import data from "../assets/data.png";
+import local from "../assets/local.png";
 
 export const Luzinhas = () => (
   <img
@@ -24,6 +26,7 @@ export const Noiva = ({ height }) => (
     src={noiva}
     alt="noiva"
     style={{
+      marginTop:"2rem",
       height,
     }}
   />
@@ -53,7 +56,8 @@ export const Placa = () => (
     src={placa}
     alt="placa"
     style={{
-      height: "5rem",
+      height: "6rem",
+      paddingLeft: "1.5rem",
     }}
   />
 );
@@ -74,6 +78,27 @@ export const Tita = () => (
     alt="caozinho"
     style={{
       height: "5rem",
+    }}
+  />
+);
+
+export const Data = () => (
+  <img
+    src={data}
+    alt="data"
+    style={{
+      height: "15rem",
+    }}
+  />
+);
+
+
+export const Quinta = () => (
+  <img
+    src={local}
+    alt="local"
+    style={{
+      height: "15rem",
     }}
   />
 );

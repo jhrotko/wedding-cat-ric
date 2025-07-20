@@ -88,3 +88,21 @@ button {
   min-height: "90px";
   background-color: hsl(227.37deg 12.26% 30.39%);
 }
+
+.card {
+  width: 60rem;
+
+}
+
+.card-body p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.card-body a {
+  font-size: 25px;
+}
+
+.card-title {
+  font-size: 40px;
+}
