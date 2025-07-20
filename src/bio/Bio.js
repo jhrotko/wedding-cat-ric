@@ -1,9 +1,9 @@
 import { BIO } from "../constants";
-import { Anel } from "../design/Images";
+import { Tita } from "../design/Images";
 import Segment from "../layout/Segment";
 
 const Bio = () => (
-  <Segment id={BIO.id} title={BIO.title} Icon={<Anel height="7rem" />}>
+  <Segment id={BIO.id} title={BIO.title} Icon={<Tita />}>
     <p>
       Na madrugada de 25 de Abril de 2024, em pleno deserto marroquino de
       Merzouga, tendo as estrelas por testemunhas e os camelos por vizinhos, ele
