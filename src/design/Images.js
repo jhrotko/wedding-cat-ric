@@ -6,7 +6,6 @@ import placa from "../assets/placa.png";
 import copo from "../assets/copo.png";
 import caozinho from "../assets/caozinho.png";
 import data from "../assets/data.png";
-import local from "../assets/local.png";
 
 export const Luzinhas = () => (
   <img
@@ -51,12 +50,12 @@ export const Anel = ({ height }) => (
   />
 );
 
-export const Placa = () => (
+export const Placa = ({height}) => (
   <img
     src={placa}
     alt="placa"
     style={{
-      height: "6rem",
+      height,
       paddingLeft: "1.5rem",
     }}
   />
@@ -87,18 +86,8 @@ export const Data = ({height}) => (
     src={data}
     alt="data"
     style={{
+      marginTop: "2rem",
       height,
-    }}
-  />
-);
-
-
-export const Quinta = () => (
-  <img
-    src={local}
-    alt="local"
-    style={{
-      height: "15rem",
     }}
   />
 );

@@ -1,9 +1,10 @@
-import { LOCATION } from "../constants";
+import { LOCATION, isMobile } from "../constants";
+import { Placa } from "../design/Images";
 import Segment from "../layout/Segment";
 
 const Location = () => {
   return (
-    <Segment id={LOCATION.id} title={LOCATION.title}>
+    <Segment id={LOCATION.id} title={LOCATION.title} Icon={<Placa height="6rem"/>}>
       <p>
         Na{" "}
         <a
@@ -27,10 +28,10 @@ const Location = () => {
         <div
           style={{
             display: "flex",
-            gap: "0.5rem" /* optional: spacing between images */,
-            alignItems: "flex-start",
+            gap: "0.5rem",
+            alignItems: !isMobile? "flex-start" : "center",
             flexWrap: "wrap",
-            flexDirection: "row",
+            flexDirection: !isMobile? "row":"column",
           }}
         >
           <img
