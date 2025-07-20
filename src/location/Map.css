@@ -1,7 +1,8 @@
 .map {
-    min-width: 36rem;
+    /* min-width: 36rem; */
+    min-width: 50rem;
     min-height: 25rem;
-    border-radius: 6px;
+    border-radius: 2%;
 }
 
 @media (max-width: 430px) {

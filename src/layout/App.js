@@ -10,7 +10,6 @@ import Arrive from "../location/Arrive";
 import Places from "../location/Places";
 import Questions from "../questions/Questions";
 import Bio from "../bio/Bio";
-// import Timeline from "./timeline/Timeline";
 
 const App = () => {
   const elementRef = useRef(null);

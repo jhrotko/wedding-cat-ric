@@ -82,12 +82,12 @@ export const Tita = () => (
   />
 );
 
-export const Data = () => (
+export const Data = ({height}) => (
   <img
     src={data}
     alt="data"
     style={{
-      height: "15rem",
+      height,
     }}
   />
 );

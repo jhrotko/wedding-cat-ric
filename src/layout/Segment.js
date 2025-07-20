@@ -5,6 +5,7 @@ const Segment = ({title, id, Icon, children}) => {
         style={{
           display: "flex",
           alignItems: "center",
+          gap: "1rem"
         }}
         >
           {Icon}

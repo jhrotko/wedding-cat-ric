@@ -56,6 +56,11 @@ header {
   font-size: calc(10px + 2vmin);
 }
 
+img {
+  max-width: 24rem;
+  border-radius: 2%;
+}
+
 .headerButton {
   transition: all 0.2s ease; /* 👈 smooth transition */
 }
@@ -71,7 +76,7 @@ header {
   flex-direction: column;
 
   /* margin: 0; */
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .element-wrapper {
@@ -91,7 +96,6 @@ button {
 
 .card {
   width: 50rem;
-
 }
 
 .card-body p {

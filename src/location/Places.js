@@ -44,7 +44,7 @@ const Places = () => {
 
 const Hotel = ({ url, name, thumbnail }) => {
   return (
-    <a href={url} target="#" style={{ color: "#3366ff" }}>
+    <a href={url} target="#">
       <div
         style={{
           display: "flex",

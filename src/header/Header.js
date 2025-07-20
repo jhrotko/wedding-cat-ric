@@ -1,5 +1,5 @@
 import { isMobile } from "../constants";
-import { Anel, Data, Luzinhas, Noiva, Noivo } from "../design/Images";
+import { Data, Luzinhas, Noiva, Noivo } from "../design/Images";
 import Countdown from "../time/Countdown";
 
 const Header = () => {
@@ -39,24 +39,12 @@ const TitleMobile = () => {
         >
           A Catarina e o Ricardo vão casar!
         </h2>
-        {/* <p>4 Outubro 2025</p> */}
-        <Data />
+        <Data height="8rem"/>
+        <br/>
         <Countdown
           timeTillDate="10 05 2025, 14:00"
           timeFormat="MM DD YYYY, h:mm"
         />
-        <div
-          style={{
-            display: "flex",
-            gap: "0.5rem",
-            alignItems: "center",
-          }}
-        >
-          <a href="#body" className="headerButton" aria-current="page">
-            <p>Mostrar detalhes</p>
-          </a>
-          <Anel height="3rem" />
-        </div>
       </div>
     </div>
   );
@@ -82,7 +70,7 @@ const Title = () => {
           A Catarina e o Ricardo vão casar!
         </h2>
         {/* <p>4 de Outubro, 2025</p> */}
-        <Data />
+        <Data height="15rem"/>
         <Countdown
           timeTillDate="10 05 2025, 14:00"
           timeFormat="MM DD YYYY, h:mm"
