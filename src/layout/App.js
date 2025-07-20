@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Header from "../header/Header";
-import { isMobile } from "../constants";
 
 import Location from "../location/Location";
 import NavigationMenu from "../navbar/NavigationMenu";
@@ -14,11 +13,14 @@ import Bio from "../bio/Bio";
 const App = () => {
   const elementRef = useRef(null);
   const [shouldShowNav, setIsVisible] = useState(false);
-
   useEffect(() => {
+    const resizeObserver = new ResizeObserver((entries) => {
+      setIsVisible(window.innerWidth > 1261);
+    });
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setIsVisible(!entry.isIntersecting);
+        setIsVisible(!entry.isIntersecting && window.innerWidth > 1261);
       },
       {
         threshold: 0.1, // Trigger when 10% of the element is visible
@@ -27,11 +29,13 @@ const App = () => {
 
     if (elementRef.current) {
       observer.observe(elementRef.current);
+      resizeObserver.observe(elementRef.current);
     }
 
     return () => {
       if (elementRef.current) {
         observer.unobserve(elementRef.current);
+        resizeObserver.unobserve(elementRef.current);
       }
     };
   }, []);
@@ -43,7 +47,7 @@ const App = () => {
       </div>
 
       <div id="body">
-        {shouldShowNav && !isMobile ? (
+        {shouldShowNav ? (
           <div className="element-wrapper block md:hidden">
             <NavigationMenu />
           </div>

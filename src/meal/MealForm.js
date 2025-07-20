@@ -23,8 +23,8 @@ const MealForm = () => {
       <iframe
         ref={iframeRef}
         src="https://docs.google.com/forms/d/e/1FAIpQLSccXzWU1LRq8fN-Pt0w1ErbTVVevllB0GbNwO08QoBP1DPnzQ/viewform?embedded=true"
-        width={!isMobile ? "640" : "380"}
-        height={!isMobile ? "800" : "600"}
+        width="100%"
+        height={!isMobile ? "800" : "1000"}
         frameborder="0"
         marginheight="0"
         marginwidth="0"

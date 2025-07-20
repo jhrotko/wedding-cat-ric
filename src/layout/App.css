@@ -11,6 +11,12 @@
 
   --dark-color: #ffffff;
   --dark-background-color: #282c34;
+
+  --font-size: 18px;
+  --font-size-title: 35px;
+  
+  --font-size-mobile: 16px;
+  --font-size-title-mobile: 24px;
 }
 
 * {
@@ -96,17 +102,51 @@ button {
 
 .card {
   width: 50rem;
+  margin-left: 2rem;
 }
 
 .card-body p {
-  font-size: 25px;
+  font-size: var(--font-size);
   text-align: justify;
 }
 
 .card-body a {
-  font-size: 25px;
+  font-size: var(--font-size);
 }
 
 .card-title {
-  font-size: 40px;
+  font-size: var(--font-size-title);
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  img {
+    max-width: 38vh;
+  }
+
+  .card {
+    width: calc(100% - 10%);
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .card-body p {
+    font-size: var(--font-size-mobile);
+  }
+
+  .card-body a {
+    font-size: var(--font-size-mobile);
+  }
+
+  .card-title {
+    font-size: var(--font-size-title-mobile);
+  }
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
 }

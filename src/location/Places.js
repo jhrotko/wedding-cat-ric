@@ -56,7 +56,6 @@ const Hotel = ({ url, name, thumbnail }) => {
         {thumbnail ?
           <img
           src={thumbnail}
-          style={{ maxWidth: "30rem", borderRadius: "2%" }}
           alt={`hotel-${name}-imagem`}
           /> : null
         }
