@@ -3,6 +3,7 @@ import { Copo } from "../design/Images";
 import { CONFIRM_PRESENCE, isMobile } from "../constants";
 
 import "./MealForm.css";
+import Segment from "../layout/Segment";
 
 const MealForm = () => {
   const iframeRef = useRef(null);
@@ -18,15 +19,7 @@ const MealForm = () => {
   };
 
   return (
-    <div id="meal" className="card">
-      <div
-        style={{
-          display: "flex",
-        }}
-      >
-        <Copo />
-        <h2>{CONFIRM_PRESENCE}</h2>
-      </div>
+    <Segment id={CONFIRM_PRESENCE.id} title={CONFIRM_PRESENCE.title} Icon={<Copo/>}>
       <iframe
         ref={iframeRef}
         src="https://docs.google.com/forms/d/e/1FAIpQLSccXzWU1LRq8fN-Pt0w1ErbTVVevllB0GbNwO08QoBP1DPnzQ/viewform?embedded=true"
@@ -38,7 +31,7 @@ const MealForm = () => {
         title="iframe-meal"
         onLoad={handleIframeLoad}
       />
-    </div>
+    </Segment>
   );
 };
 

@@ -1,15 +1,9 @@
 import { PLACES } from "../constants";
+import Segment from "../layout/Segment";
 
 const Places = () => {
   return (
-    <div id="arrive" className="card">
-      <div
-        style={{
-          display: "flex",
-        }}
-      >
-        <h2>{PLACES}</h2>
-      </div>
+    <Segment id={PLACES.id} title={PLACES.title}>
       <p>
         Beja oferece uma variedade de sítios onde poderão encontrar guarida:
         hotéis, pousadas e alojamentos locais.
@@ -44,7 +38,7 @@ const Places = () => {
           />
         </li>
       </ul>
-    </div>
+    </Segment>
   );
 };
 
@@ -59,10 +53,13 @@ const Hotel = ({ url, name, thumbnail }) => {
         }}
       >
         {name}
-        <img
+        {thumbnail ?
+          <img
           src={thumbnail}
           style={{ maxWidth: "30rem", borderRadius: "2%" }}
-        />
+          alt={`hotel-${name}-imagem`}
+          /> : null
+        }
       </div>
     </a>
   );

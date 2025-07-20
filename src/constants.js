@@ -1,8 +1,17 @@
-export const BIO_TITLE = "Como foi o pedido?";
-export const LOCATION_TITLE = "Onde vai ser?";
-export const CONFIRM_PRESENCE = "Confirma a tua presença";
-export const QUESTIONS = "Tens mais perguntas?";
-export const ARRIVE = "Como chegar?";
-export const PLACES = "Onde ficar?";
+export const BIO = {title: "Como foi o pedido?", id: "bio"};
+export const LOCATION = {title: "Onde vai ser?", id: "location"};
+export const CONFIRM_PRESENCE = {title: "Confirma a tua presença", id: "arrive"};
+export const QUESTIONS ={title: "Tens mais perguntas?" , id:"places" };
+export const ARRIVE = {title: "Como chegar?", id: "presence"};
+export const PLACES = {title: "Onde ficar?", id: "questions"};
 
 export const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+export const sectionsNameId = [
+    BIO,
+    LOCATION,
+    ARRIVE,
+    PLACES,
+    CONFIRM_PRESENCE,
+    QUESTIONS
+]

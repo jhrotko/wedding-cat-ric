@@ -1,4 +1,4 @@
-import { LOCATION_TITLE, CONFIRM_PRESENCE } from "../constants";
+import { sectionsNameId } from "../constants";
 import "./NavigationManu.css";
 
 const NavigationItem = (props) => {
@@ -13,23 +13,10 @@ const NavigationMenu = () => {
   return (
     <nav className="sidebar">
       <ul>
-        <NavigationItem ref={"#location"} title={LOCATION_TITLE} />
-        <NavigationItem ref={"#meal"} title={CONFIRM_PRESENCE} />
+        {sectionsNameId.map(({title, id}) => <NavigationItem ref={`#${id}`} title={title}/>)}
       </ul>
     </nav>
   );
 };
-
-// const NavigationMenu = () => {
-//   return (
-//     <div className="upbar-nav">
-//       <div class="upbar-containers">
-//         {/* <h3>Conteúdos</h3> */}
-//         <NavigationItem ref={"#location"} title={LOCATION_TITLE} />
-//         <NavigationItem ref={"#meal"} title={"Confirma a tua presença"} />
-//       </div>
-//     </div>
-//   );
-// };
 
 export default NavigationMenu;
