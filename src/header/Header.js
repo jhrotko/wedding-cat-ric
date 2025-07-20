@@ -13,11 +13,10 @@ const Header = () => {
 
 const TitleMobile = () => {
   return (
-    <div>
+    <div style={{marginTop: "1rem"}}>
       <div
         style={{
           display: "flex",
-          gap: "2rem",
           alignContent: "center",
           justifyContent: "center",
         }}
@@ -37,7 +36,7 @@ const TitleMobile = () => {
             textAlign: "center",
           }}
         >
-          A Catarina e o Ricardo vão casar!
+          A Catarina e o Ricardo <br/>vão casar!
         </h2>
         <Data height="8rem"/>
         <br/>

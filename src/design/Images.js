@@ -86,7 +86,6 @@ export const Data = ({height}) => (
     src={data}
     alt="data"
     style={{
-      marginTop: "2rem",
       height,
     }}
   />

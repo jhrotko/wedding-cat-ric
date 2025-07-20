@@ -1,7 +1,6 @@
 import { React, useState, useEffect } from "react";
 import moment from "moment";
 import "./Countdown.css";
-import { isMobile } from "../constants";
 
 const Countdown = (props) => {
   const [time, setTime] = useState({
@@ -39,7 +38,6 @@ const Countdown = (props) => {
 
   return (
     <div className="countdown-div">
-      {/* <h1>Countdown</h1> */}
       <div className="countdown-wrapper">
         {days && (
           <div className="countdown-item">
