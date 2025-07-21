@@ -32,8 +32,8 @@ export const Gift = () => {
         Japão – podem fazer-nos chegar diretamente ou através do IBAN:
       </p>
       <ul>
-        <li>Ricardo: (+351) 918181093</li>
-        <li>Catarina: (+351) 966312351</li>
+        <li>Ricardo: PT50003503730069707163022</li>
+        <li>Catarina: PT50003501470006086480007</li>
       </ul>
     </Segment>
   );
