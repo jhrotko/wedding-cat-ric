@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-cat-ric/static/css/main.d1d99c51.css",
-    "main.js": "/wedding-cat-ric/static/js/main.7fe21ff4.js",
+    "main.js": "/wedding-cat-ric/static/js/main.949fe60e.js",
     "static/js/453.d6f3f4a8.chunk.js": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js",
     "static/media/caozinho.png": "/wedding-cat-ric/static/media/caozinho.013f7be666561cf04c72.png",
     "static/media/luzinhas.png": "/wedding-cat-ric/static/media/luzinhas.1928997cf200ffe19c04.png",
@@ -14,11 +14,11 @@
     "static/media/placa.png": "/wedding-cat-ric/static/media/placa.f4977609288cc3d0c60a.png",
     "index.html": "/wedding-cat-ric/index.html",
     "main.d1d99c51.css.map": "/wedding-cat-ric/static/css/main.d1d99c51.css.map",
-    "main.7fe21ff4.js.map": "/wedding-cat-ric/static/js/main.7fe21ff4.js.map",
+    "main.949fe60e.js.map": "/wedding-cat-ric/static/js/main.949fe60e.js.map",
     "453.d6f3f4a8.chunk.js.map": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1d99c51.css",
-    "static/js/main.7fe21ff4.js"
+    "static/js/main.949fe60e.js"
   ]
 }
