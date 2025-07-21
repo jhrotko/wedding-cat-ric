@@ -32,11 +32,11 @@ const Bio = () => (
           src: foto2,
           alt: "catarina-e-ricardo-anel",
         },
-        { src: foto3, alt: "catarina-e-ricardo-felizes" },
-        {
-          src: foto4,
-          alt: "catarina-e-ricardo-bue-felizes",
-        },
+        // { src: foto3, alt: "catarina-e-ricardo-felizes" },
+        // {
+        //   src: foto4,
+        //   alt: "catarina-e-ricardo-bue-felizes",
+        // },
       ]}
     />
   </Segment>
