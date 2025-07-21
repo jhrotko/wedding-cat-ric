@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { Copo } from "../design/Images";
 import { CONFIRM_PRESENCE, isMobile } from "../constants";
 
-import "./MealForm.css";
 import Segment from "../layout/Segment";
 
 const MealForm = () => {
@@ -13,9 +12,7 @@ const MealForm = () => {
     if (iframe) {
       // Safely access and style the body inside the iframe
       iframe.style.fontFamily = "Tahoma";
-      console.log("hehehehe", iframeRef);
     }
-    console.log("Nooooo", iframeRef);
   };
 
   return (

@@ -68,7 +68,6 @@ const Title = () => {
         <h2 style={{ textAlign: "center" }}>
           A Catarina e o Ricardo vão casar!
         </h2>
-        {/* <p>4 de Outubro, 2025</p> */}
         <Data height="15rem" />
         <Countdown
           timeTillDate="10 05 2025, 14:00"

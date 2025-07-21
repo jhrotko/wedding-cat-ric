@@ -43,15 +43,15 @@
 }
 
 @media screen and (max-width: 600px) {
-	.countdown-item {
-	  font-size: var(--font-size-countdown-item-mobile);
-	}
-  
-	.countdown-item span {
-	  font-size: var(--font-size-countdown-span-mobile);
-	}
-  
-	.countdown-wrapper {
-	  gap: 2rem;
-	}
+  .countdown-item {
+    font-size: var(--font-size-countdown-item-mobile);
   }
+
+  .countdown-item span {
+    font-size: var(--font-size-countdown-span-mobile);
+  }
+
+  .countdown-wrapper {
+    gap: 1rem;
+  }
+}
