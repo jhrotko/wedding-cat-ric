@@ -1,5 +1,5 @@
 import { PLACES } from "../constants";
-import Segment from "../layout/Segment";
+import Segment, { UrlLink } from "../layout/Segment";
 
 const Places = () => {
   return (
@@ -44,7 +44,7 @@ const Places = () => {
 
 const Hotel = ({ url, name, thumbnail }) => {
   return (
-    <a href={url} target="#">
+    <UrlLink href={url}>
       <div
         style={{
           display: "flex",
@@ -53,14 +53,11 @@ const Hotel = ({ url, name, thumbnail }) => {
         }}
       >
         {name}
-        {thumbnail ?
-          <img
-          src={thumbnail}
-          alt={`hotel-${name}-imagem`}
-          /> : null
-        }
+        {thumbnail ? (
+          <img src={thumbnail} alt={`hotel-${name}-imagem`} />
+        ) : null}
       </div>
-    </a>
+    </UrlLink>
   );
 };
 
