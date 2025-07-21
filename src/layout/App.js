@@ -7,7 +7,7 @@ import NavigationMenu from "../navbar/NavigationMenu";
 import MealForm from "../meal/MealForm";
 import Arrive from "../location/Arrive";
 import Places from "../location/Places";
-import Questions from "../questions/Questions";
+import Questions, { Gift } from "../questions/Questions";
 import Bio from "../bio/Bio";
 
 const App = () => {
@@ -66,7 +66,10 @@ const App = () => {
             <Places />
           </div>
           <div className="element-wrapper">
-            <MealForm />
+              <MealForm />
+          </div>
+          <div className="element-wrapper">
+            <Gift />
           </div>
           <div className="element-wrapper">
             <Questions />

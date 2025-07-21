@@ -4,6 +4,7 @@ export const CONFIRM_PRESENCE = {title: "Confirma a tua presença", id: "arrive"
 export const QUESTIONS ={title: "Tens mais perguntas?" , id:"places" };
 export const ARRIVE = {title: "Como chegar?", id: "presence"};
 export const PLACES = {title: "Onde ficar?", id: "questions"};
+export const GIFT = {title: "Onde que oferecer?", id: "gift"};
 
 export const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -13,5 +14,6 @@ export const sectionsNameId = [
     ARRIVE,
     PLACES,
     CONFIRM_PRESENCE,
+    GIFT,
     QUESTIONS
 ]
