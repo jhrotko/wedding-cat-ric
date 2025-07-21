@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-cat-ric/static/css/main.0f2b7dd6.css",
-    "main.js": "/wedding-cat-ric/static/js/main.ebe9cec9.js",
+    "main.css": "/wedding-cat-ric/static/css/main.40c1b000.css",
+    "main.js": "/wedding-cat-ric/static/js/main.8eca938f.js",
     "static/js/453.d6f3f4a8.chunk.js": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js",
     "static/media/caozinho.png": "/wedding-cat-ric/static/media/caozinho.013f7be666561cf04c72.png",
     "static/media/luzinhas.png": "/wedding-cat-ric/static/media/luzinhas.1928997cf200ffe19c04.png",
@@ -17,12 +17,12 @@
     "static/media/copo.png": "/wedding-cat-ric/static/media/copo.91c9555c2ade26693027.png",
     "static/media/placa.png": "/wedding-cat-ric/static/media/placa.f4977609288cc3d0c60a.png",
     "index.html": "/wedding-cat-ric/index.html",
-    "main.0f2b7dd6.css.map": "/wedding-cat-ric/static/css/main.0f2b7dd6.css.map",
-    "main.ebe9cec9.js.map": "/wedding-cat-ric/static/js/main.ebe9cec9.js.map",
+    "main.40c1b000.css.map": "/wedding-cat-ric/static/css/main.40c1b000.css.map",
+    "main.8eca938f.js.map": "/wedding-cat-ric/static/js/main.8eca938f.js.map",
     "453.d6f3f4a8.chunk.js.map": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f2b7dd6.css",
-    "static/js/main.ebe9cec9.js"
+    "static/css/main.40c1b000.css",
+    "static/js/main.8eca938f.js"
   ]
 }
