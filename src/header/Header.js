@@ -83,7 +83,7 @@ const Title = () => {
           </a> */}
         </div>
       </div>
-      <Noivo height="25rem" />
+      <Noivo height="27rem" />
     </div>
   );
 };
