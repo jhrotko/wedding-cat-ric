@@ -42,7 +42,7 @@
   height: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
   .countdown-item {
     font-size: var(--font-size-countdown-item-mobile);
   }

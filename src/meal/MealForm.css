@@ -1,0 +1,16 @@
+.meal iframe {
+  width: 100%;
+  display: block;
+  margin-left: -0%;
+}
+
+@media screen and (max-width: 730px) {
+  .meal iframe {
+    width: 110%;
+    display: block;
+    margin-left: -5%;
+  }
+  .meal .card-title {
+    width: 80vw;
+  }
+}
