@@ -1,4 +1,4 @@
-import { LOCATION, isMobile } from "../constants";
+import { LOCATION } from "../constants";
 import { Placa } from "../design/Images";
 import Gallery from "../layout/Gallery";
 import Segment, { UrlLink } from "../layout/Segment";

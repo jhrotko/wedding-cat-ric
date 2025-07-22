@@ -4,8 +4,8 @@ import Gallery from "../layout/Gallery";
 import Segment from "../layout/Segment";
 import foto1 from "../assets/foto-1.jpeg";
 import foto2 from "../assets/foto-2.jpeg";
-import foto3 from "../assets/foto-3.jpeg";
-import foto4 from "../assets/foto-4.jpeg";
+// import foto3 from "../assets/foto-3.jpeg";
+// import foto4 from "../assets/foto-4.jpeg";
 
 const Bio = () => (
   <Segment id={BIO.id} title={BIO.title} Icon={<Tita />}>
