@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.f761c4ff.css",
-    "main.js": "/static/js/main.3837395f.js",
-    "static/js/453.d6f3f4a8.chunk.js": "/static/js/453.d6f3f4a8.chunk.js",
-    "static/media/caozinho.png": "/static/media/caozinho.013f7be666561cf04c72.png",
-    "static/media/luzinhas.png": "/static/media/luzinhas.1928997cf200ffe19c04.png",
-    "static/media/noivo.png": "/static/media/noivo.f3b509ad249aa7d1a14d.png",
-    "static/media/foto-2.jpeg": "/static/media/foto-2.44cddb496c9f514b75bb.jpeg",
-    "static/media/foto-3.jpeg": "/static/media/foto-3.ec4ddc1b287db19994b7.jpeg",
-    "static/media/foto-1.jpeg": "/static/media/foto-1.f0b276313cd369ba4cd4.jpeg",
-    "static/media/foto-4.jpeg": "/static/media/foto-4.f38df68a5be72407469f.jpeg",
-    "static/media/noiva.png": "/static/media/noiva.a64ed30f723ef92243cf.png",
-    "static/media/data.png": "/static/media/data.9d9fc16367e24cf2c3dd.png",
-    "static/media/anel.png": "/static/media/anel.3ebd7b7b666ceec456e0.png",
-    "static/media/NotasCaseiras.ttf": "/static/media/NotasCaseiras.35df61e2e0e0a088c849.ttf",
-    "static/media/copo.png": "/static/media/copo.91c9555c2ade26693027.png",
-    "static/media/placa.png": "/static/media/placa.f4977609288cc3d0c60a.png",
-    "index.html": "/index.html",
-    "main.f761c4ff.css.map": "/static/css/main.f761c4ff.css.map",
-    "main.3837395f.js.map": "/static/js/main.3837395f.js.map",
-    "453.d6f3f4a8.chunk.js.map": "/static/js/453.d6f3f4a8.chunk.js.map"
+    "main.css": "/wedding-cat-ric/static/css/main.40c1b000.css",
+    "main.js": "/wedding-cat-ric/static/js/main.e012e134.js",
+    "static/js/453.d6f3f4a8.chunk.js": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js",
+    "static/media/caozinho.png": "/wedding-cat-ric/static/media/caozinho.013f7be666561cf04c72.png",
+    "static/media/luzinhas.png": "/wedding-cat-ric/static/media/luzinhas.1928997cf200ffe19c04.png",
+    "static/media/noivo.png": "/wedding-cat-ric/static/media/noivo.f3b509ad249aa7d1a14d.png",
+    "static/media/foto-2.jpeg": "/wedding-cat-ric/static/media/foto-2.44cddb496c9f514b75bb.jpeg",
+    "static/media/foto-3.jpeg": "/wedding-cat-ric/static/media/foto-3.ec4ddc1b287db19994b7.jpeg",
+    "static/media/foto-1.jpeg": "/wedding-cat-ric/static/media/foto-1.f0b276313cd369ba4cd4.jpeg",
+    "static/media/foto-4.jpeg": "/wedding-cat-ric/static/media/foto-4.f38df68a5be72407469f.jpeg",
+    "static/media/noiva.png": "/wedding-cat-ric/static/media/noiva.a64ed30f723ef92243cf.png",
+    "static/media/data.png": "/wedding-cat-ric/static/media/data.9d9fc16367e24cf2c3dd.png",
+    "static/media/anel.png": "/wedding-cat-ric/static/media/anel.3ebd7b7b666ceec456e0.png",
+    "static/media/NotasCaseiras.ttf": "/wedding-cat-ric/static/media/NotasCaseiras.35df61e2e0e0a088c849.ttf",
+    "static/media/copo.png": "/wedding-cat-ric/static/media/copo.91c9555c2ade26693027.png",
+    "static/media/placa.png": "/wedding-cat-ric/static/media/placa.f4977609288cc3d0c60a.png",
+    "index.html": "/wedding-cat-ric/index.html",
+    "main.40c1b000.css.map": "/wedding-cat-ric/static/css/main.40c1b000.css.map",
+    "main.e012e134.js.map": "/wedding-cat-ric/static/js/main.e012e134.js.map",
+    "453.d6f3f4a8.chunk.js.map": "/wedding-cat-ric/static/js/453.d6f3f4a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f761c4ff.css",
-    "static/js/main.3837395f.js"
+    "static/css/main.40c1b000.css",
+    "static/js/main.e012e134.js"
   ]
 }
