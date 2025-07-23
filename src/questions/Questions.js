@@ -27,9 +27,10 @@ export const Gift = () => {
   return (
     <Segment title={GIFT.title} id={GIFT.id}>
       <p>
-        Não temos nenhuma lista de presentes, mas se quiserem ajudar com uma
-        contribuição para a viagem de Lua de Mel ao nosso destino de sonho – o
-        Japão – podem fazer-nos chegar diretamente ou através do IBAN:
+        Não temos nenhuma lista de presentes! A presença dos nossos familiares e
+        amigos é o melhor que podemos receber! 😊 No entanto, se nos quiserem
+        ajudar a realizar a nossa viagem de sonho para o 🇯🇵 Japão 🇯🇵 podem
+        fazer-nos chegar diretamente ou através do IBAN:
       </p>
       <ul>
         <li>Ricardo: PT50003503730069707163022</li>
