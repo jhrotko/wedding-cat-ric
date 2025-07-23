@@ -40,10 +40,7 @@ const TitleMobile = () => {
           vão casar!
         </h2>
         <Data height="6rem" />
-        <Countdown
-          timeTillDate="10 05 2025, 14:00"
-          timeFormat="MM DD YYYY, h:mm"
-        />
+        <Countdown />
       </div>
     </>
   );
@@ -69,10 +66,7 @@ const Title = () => {
           A Catarina e o Ricardo vão casar!
         </h2>
         <Data height="15rem" />
-        <Countdown
-          timeTillDate="10 05 2025, 14:00"
-          timeFormat="MM DD YYYY, h:mm"
-        />
+        <Countdown />
         <div
           style={{
             display: "flex",
