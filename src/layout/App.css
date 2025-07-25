@@ -68,8 +68,12 @@ header {
   font-size: calc(10px + 2vmin);
 }
 
+.single-image {
+  max-width: 68vh;
+}
+
 img {
-  max-width: 24rem;
+  max-width: 46vh;
   border-radius: 2%;
 }
 
@@ -130,6 +134,10 @@ button {
 
   nav {
     display: none;
+  }
+
+  .single-image {
+    max-width: 38vh;
   }
 
   img {
