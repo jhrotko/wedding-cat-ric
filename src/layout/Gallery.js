@@ -9,6 +9,7 @@ const Gallery = ({imgs}) => {
             alignItems: !isMobile? "flex-start" : "center",
             flexWrap: "wrap",
             flexDirection: !isMobile? "row":"column",
+            justifyContent: "flex-end"
           }}
         >
             {imgs.map(i => <img src={i.src} alt={i.alt}/> )}
